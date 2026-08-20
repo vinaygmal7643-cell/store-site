@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultra App Store - Direct APK Downloads</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            padding: 20px;
+        }
+
+        /* Header Styling */
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #334155;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #38bdf8;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            color: #94a3b8;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        /* App Container Grid */
+        .app-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* App Card Styling */
+        .app-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease;
+        }
+
+        .app-card:hover {
+            transform: translateY(-3px);
+            border-color: #38bdf8;
+        }
+
+        .app-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .app-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 16px;
+            object-fit: cover;
+            border: 2px solid #38bdf8;
+        }
+
+        .app-details h3 {
+            font-size: 20px;
+            color: #ffffff;
+        }
+
+        .app-details .version {
+            font-size: 13px;
+            color: #38bdf8;
+            font-weight: bold;
+            margin: 3px 0;
+        }
+
+        .app-details .badge {
+            background: #22c55e;
+            color: #000;
+            font-size: 11px;
+            font-weight: bold;
+            padding: 2px 8px;
+            border-radius: 12px;
+            display: inline-block;
+        }
+
+        /* Download Button */
+        .download-btn {
+            background: linear-gradient(135deg, #0284c7, #2563eb);
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 14px;
+            box-shadow: 0 4px 10px rgba(2, 132, 199, 0.4);
+            transition: background 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background: linear-gradient(135deg, #0369a1, #1d4ed8);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #64748b;
+            font-size: 12px;
+        }
+
+        footer a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        /* Responsive Mobile Layout */
+        @media (max-width: 600px) {
+            .app-card {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+
+            .download-btn {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🚀 ULTRA APP STORE</h1>
+        <p>Direct & Safe Android APK Downloads (No VPN Required)</p>
+    </header>
+
+    <div class="app-container">
+
+        <!-- APP CARD START (CapCut Ultra) -->
+        <div class="app-card">
+            <div class="app-info">
+                <!-- Apna App Icon URL yahan badlein -->
+                <img src="https://via.placeholder.com/70" alt="CapCut Ultra Icon" class="app-icon">
+                <div class="app-details">
+                    <h3>CapCut Ultra</h3>
+                    <p class="version">v20.1.01 (Latest Update)</p>
+                    <span class="badge">NO VPN NEEDED</span>
+                </div>
+            </div>
+            <!-- Direct Telegram / Direct APK Link yahan daalein -->
+            <a href="YOUR_APK_DOWNLOAD_LINK_HERE" class="download-btn">⬇️ DOWNLOAD APK</a>
+        </div>
+        <!-- APP CARD END -->
+
+    </div>
+
+    <footer>
+        <p>Join our official Telegram Channel: <a href="YOUR_TELEGRAM_LINK" target="_blank">CapCut Ultra Telegram</a></p>
+    </footer>
+
+</body>
+</html>
+
